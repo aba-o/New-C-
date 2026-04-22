@@ -1,5 +1,6 @@
-# cse210-student-template
-This is the starter code for students in CSE 210.
+# cse210-Aba-template
+This is the starter code for Aba in CSE 210.
+Aba Amponsah Otchere
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
