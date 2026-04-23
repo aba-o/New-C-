@@ -1,3 +1,10 @@
+/*
+Author: Aba Otchere
+Date: 22nd April 2026
+
+Description: COnditional Statements
+*/
+
 using System;
 using System.Net.Security;
 
@@ -6,33 +13,33 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello Prep2 World!");
-        Console.Write("Hello Student! Enter your grade percentage ");
+        Console.Write("Hello Student! Enter your AAOgrade percentage ");
         string userInput = Console.ReadLine();
-        int grade = int.Parse(userInput);
-        string letterGrade = "";
+        int AAOgrade = int.Parse(userInput);
+        string AAOletterGrade = "";
 
-        if (grade >= 90)
+        if (AAOgrade >= 90)
         {
-            letterGrade = "A";
+            AAOletterGrade = "A";
         }
-        else if (grade >= 80)
+        else if (AAOgrade >= 80)
         {
-            letterGrade = "B";
+            AAOletterGrade = "B";
         }
-        else if (grade >= 70)
+        else if (AAOgrade >= 70)
         {
-            letterGrade = "C";
+            AAOletterGrade = "C";
         }
-        else if (grade >= 60)
+        else if (AAOgrade >= 60)
         {
-            letterGrade = "D";
+            AAOletterGrade = "D";
         }
         else
         {
-            letterGrade = "F";
+            AAOletterGrade = "F";
         }
         
-        int lastDigit = grade % 10;
+        int lastDigit = AAOgrade % 10;
         string sign = "";
 
         if (lastDigit >= 7)
@@ -44,19 +51,19 @@ class Program
             sign = "-";
         }
 
-        if (letterGrade == "A" && sign == "+")
+        if (AAOletterGrade == "A" && sign == "+")
         {
             sign = "";
         }
-        if (letterGrade == "F")
+        if (AAOletterGrade == "F")
         {
             sign = "";
         }
 
 
-        Console.WriteLine($"Your letter grade is {letterGrade}{sign}!");
+        Console.WriteLine($"Your letter grade is {AAOletterGrade}{sign}!");
 
-        if (grade >= 70)
+        if (AAOgrade >= 70)
         {
             Console.WriteLine("Yayy! You passed this class!");
         }
