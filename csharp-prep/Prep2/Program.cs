@@ -2,7 +2,7 @@
 Author: Aba Otchere
 Date: 22nd April 2026
 
-Description: COnditional Statements
+Description: Conditional Statements
 */
 
 using System;
