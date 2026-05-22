@@ -15,4 +15,10 @@ public class Resume
             job.DisplayJobDetails();
         }
     }
+
+    // another way the display function could be done is to declare a tostring function
+    // eg public void toString()
+    //{
+    //string value = _aaoJobTitle + "("+company+)
+    //}
 }
