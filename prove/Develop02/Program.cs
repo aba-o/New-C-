@@ -16,7 +16,6 @@ class Program
         int _aaoresponsint = 0;
         while (_aaoresponsint != 6)
         {
-            Console.WriteLine("Hello Develop02 World!");
             Console.WriteLine(
                 @"Please select one of the following choices 
                 1. Write 
