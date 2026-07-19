@@ -1,3 +1,11 @@
+/*
+author: Aba Otchere
+Date: 07/15/26
+description: Foundation 2 - Encapsulation
+
+
+Resources used: Course marerials, W3Schools, Claude, Coddy, Chat GPT
+*/
 using System;
 
 class Program

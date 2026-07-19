@@ -1,3 +1,12 @@
+/*
+author: Aba Otchere
+Date: 07/15/26
+description: Foundation 1 - Abstraction
+
+
+Resources used: Course marerials, W3Schools, Claude, Coddy, Chat GPT
+*/
+
 using System;
 using System.Collections.Generic;
 
