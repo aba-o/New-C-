@@ -5,6 +5,9 @@ using System.Reflection;
 /// date: 21st May 2026
 /// 
 /// Description: Abstraction(Journal Program)
+/// Exceeding Requirements:
+/// I enhanced my journal program with a mood tracking feature. Each journal entry now includes a mood input from the user (such as Happy, Sad, or Excited), which is stored, saved to file, and displayed when entries are loaded or viewed.
+///I also added a mood filtering feature, allowing users to search and display only entries that match a specific mood.
 /// </summary>
 class Program
 {
